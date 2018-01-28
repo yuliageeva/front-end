@@ -1,0 +1,30 @@
+h1 {
+    text-transform: uppercase;
+}
+
+.fontColor {
+	color: red;
+}
+
+figcaption {
+	color: darkblue;
+}
+
+section {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	margin-left: 5%;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	background-image: url("circles-light.png");
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>flexbox</title>
+<style>
+    .flex-container{
+        display: flex;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .items {
+        width: 110px;
+        margin: 10px;
+        border: 1px solid lightgrey;
+        text-align: justify-all;
+        vertical-align: middle;
+        line-height: 120px;
+    }
+
+    .items p {
+        line-height: 1.5;
+        margin: 15px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    @media (max-width: 600px) {
+        .flex-container {
+            flex-direction: column;    
+            height: 640px;
+        }
+       .items {
+            display: flex;
+            flex-grow: 1;
+            height: 100px;
+            width: 150px;
+            vertical-align: middle;
+            text-align: center;
+        }
+    }
+</style>
+</head>
+
+<body>
+<h1>Using Flexbox </h1>
+<div class="flex-container">
+<div class="items"><p>This is the first section</p></div>
+<div class="items"><p>Here is some more text</p></div>
+<div class="items" <div style="flex: 0 0 200px"><p>Text continues in this section</p></div>
+<div class="items"><p>Is there more coming?</p></div>
+<div class="items"><p>This is the final section</p><div>
+
+</div>
+</body>
+</html>
